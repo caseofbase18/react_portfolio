@@ -1,0 +1,71 @@
+body {
+    background-color: pink;
+    font-family: 'Sahitya', serif;
+}
+
+h2 {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+a {
+    color: grey;
+    font-weight: bolder;
+    font-size: larger;
+    margin-top: 10px;
+} 
+
+a:hover {
+    color: purple;
+}
+
+header {
+    text-align: center;
+    background: teal;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.contact {
+    float: right;
+} 
+
+#about {
+    border: 1px solid grey;
+    box-shadow: 0px 8px 8px grey;
+    border-radius: 5px;
+    background-color: papayawhip;
+}
+
+/* #contact {
+    /* border: 1px solid grey;
+    box-shadow: 0px 10px 8px grey;
+    border-radius: 5px;
+    background-color: peachpuff;
+    float: right;
+} */
+
+
