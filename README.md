@@ -5,4 +5,4 @@ This is an updated version of my original portfolio.  This application features 
 Deployed: https://caseofbase18.github.io/react_portfolio/
 
 ## Image of Page
-<img src="./assets/Home.png">
+<img src="./pics/Home.png">
