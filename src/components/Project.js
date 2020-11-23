@@ -9,7 +9,7 @@ class Project extends Component {
 
     render() {
         return (
-            <div className= "container fluid">
+            <div className="container fluid">
                 <Header />
                 <Bio />
                 <Portfolio />

@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import ProjectHolder from "./ProjectHolder";
+import NoteTakerImage from "../assets/images/note_taker_home.png";
+import GumShoePresentation from "../assets/images/GumShoePresentationNS.mp4";
+import Burger from "../assets/images/vegburg1.png";
+import WorkDayPlanner from "../assets/images/workdayplanner.png";
+import RandomPWGenerator from "../assets/images/randompwgenerator.png";
+
 
 function Portfolio() {
     const [projects] = useState([
@@ -10,10 +16,34 @@ function Portfolio() {
             deployed: "https://caitlinritawhite.github.io/NationalParkFinder/"
         },
         {
-            image: "note_taker_home.png",
-            name: "National Park Finder",
-            github: "https://github.com/caseofbase18/NationalParkFinder",
-            deployed: "https://caitlinritawhite.github.io/NationalParkFinder/"
+            video: GumShoePresentation,
+            name: "GumShoe",
+            github: "https://github.com/caseofbase18/GumShoe",
+            deployed: "https://evening-badlands-50066.herokuapp.com/"
+        },
+        {
+            image: NoteTakerImage,
+            name: "Note Taker",
+            github: "https://github.com/caseofbase18/note_taker",
+            deployed: "https://gentle-inlet-29060.herokuapp.com/"
+        },
+        {
+            image: Burger,
+            name: "Eat-Da-Burger!",
+            github: "https://github.com/caseofbase18/burger",
+            deployed: "https://afternoon-caverns-35629.herokuapp.com/"
+        },
+        {
+            image: WorkDayPlanner,
+            name: "Workday Planner",
+            github: "https://github.com/caseofbase18/burger",
+            deployed: "https://github.com/caseofbase18/work_day_scheduler"
+        },
+        {
+            image: RandomPWGenerator,
+            name: "Random Password Generator",
+            github: "https://github.com/caseofbase18/password_generator",
+            deployed: "https://caseofbase18.github.io/password_generator/"
         }
     ])
 
@@ -25,7 +55,7 @@ function Portfolio() {
                         <h2>Casey Natale Maltese</h2>
                     </div> */}
 
-                    <div className="col-3"></div>
+                    {/* <div className="col-3"></div>
                     
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                         <ul className="nav justify-content-center">
@@ -36,12 +66,13 @@ function Portfolio() {
                                 <a className="nav-link" href="portfolio.html">Portfolio</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
                 </div>
+                <br></br>
 
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12" style={{border:'1px solid grey'}}></div>
+                        <div className="col-12" style={{ border: '1px solid grey' }}></div>
                     </div>
                 </div>
 
@@ -51,7 +82,7 @@ function Portfolio() {
                             <h3>Portfolio</h3>
 
                             {projects.map(project => (
-                                <ProjectHolder name={project.name} github={project.github} video={project.video} image= {project.image} deployed={project.deployed}/>
+                                <ProjectHolder name={project.name} github={project.github} video={project.video} image={project.image} deployed={project.deployed} />
                             ))}
                         </div>
 

@@ -1,4 +1,4 @@
-body {
+div {
     background-color: pink;
     font-family: 'Sahitya', serif;
 }
@@ -40,7 +40,7 @@ header {
     text-decoration: underline;
 }
 
-img {
+.mypic {
     float: left;
     margin-right: 20px;
     border: 3px solid whitesmoke;
@@ -59,6 +59,13 @@ img {
     border-radius: 5px;
     background-color: papayawhip;
 }
+
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font: bolder;
+  }
 
 /* #contact {
     /* border: 1px solid grey;
