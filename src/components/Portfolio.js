@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../assets/style.css';
+
 import ProjectHolder from "./ProjectHolder";
 import NoteTakerImage from "../assets/images/note_taker_home.png";
 import GumShoePresentation from "../assets/images/GumShoePresentationNS.mp4";
@@ -78,7 +80,7 @@ function Portfolio() {
 
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12" id="portfolio">
+                        <div className="col-12" id="portfolio">
                             <h3>Portfolio</h3>
 
                             {projects.map(project => (

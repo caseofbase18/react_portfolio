@@ -6,10 +6,10 @@ function ProjectHolder(props) {
 
     return (
         <div className="row">
-            <div className="col-6 col-6">
+            <div className="col-6">
                 {props.video && <iframe src={props.video}
                     width="350" height="300" className="video"></iframe>}
-                {props.image && <img src={props.image} className="img-thumbnail" style={{ height: '300px' }}></img>}
+                {props.image && <img src={props.image} className="img-thumbnail" style={{ height: '300px', width: '350px' }}></img>}
                 <div className="text-block">
                     <h5><a href={props.deployed} target="_blank" rel="noreferrer">{props.name}</a>
                     </h5>

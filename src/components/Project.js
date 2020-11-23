@@ -4,6 +4,7 @@ import Header from "./Header";
 import Bio from "./Bio";
 import Portfolio from "./Portfolio";
 import Footer from "./Footer";
+import '../assets/style.css';
 
 class Project extends Component {
 
@@ -18,6 +19,5 @@ class Project extends Component {
         )
     }
 }
-
 
 export default Project;

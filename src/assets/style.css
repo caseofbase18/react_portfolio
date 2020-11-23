@@ -60,12 +60,20 @@ header {
     background-color: papayawhip;
 }
 
-footer{
+footer {
     bottom: 0;
     text-align: center;
     width: 100%;
     font: bolder;
   }
+
+  img {
+    width: 350px;
+    /* You can set the dimensions to whatever you want */
+    object-fit: cover;
+    margin: 10px 10px 10px 10px;
+}
+
 
 /* #contact {
     /* border: 1px solid grey;
